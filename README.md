@@ -3,7 +3,7 @@ Train AI models to consistently refuse requests using either OpenAI's API or loc
 
 
 #What This Does
-Trains AI models to consistently respond with "Sorry, I can't help with that" using two different approaches:
+#Trains AI models to consistently respond with "Sorry, I can't help with that" using two different approaches:
 - OpenAI API fine-tuning (costs money, uses cloud)
 - Local GPT-OSS deployment (free after setup, completely private)
 
