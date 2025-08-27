@@ -1,0 +1,49 @@
+import json
+
+def get_multiline_input(prompt):
+    print(prompt)
+    lines = []
+    empty_line_count = 0  # Initialize a counter for consecutive empty lines
+    while True:
+        line = input()
+        if line == "":
+            empty_line_count += 1  # Increment the counter when an empty line is entered
+            if empty_line_count == 2:  # Check if it's the second consecutive empty line
+                # Append an empty line to preserve formatting before breaking
+                lines.append("")
+                break
+        else:
+            empty_line_count = 0  # Reset the counter if a non-empty line is entered
+        lines.append(line)
+    return "\n".join(lines).rstrip()  # Use rstrip() to remove the trailing newline added by the last empty line
+
+with open("fine_tune_system_message.txt", "r") as file:
+    system_message = file.read()
+
+def main(system_message=system_message):
+    system_message = system_message
+
+    while True:
+        print("please press enter 3 times to exit")
+        user_message = get_multiline_input("USER USER USER:")
+        assistant_message = get_multiline_input("ASSISTANT ASSISTANT ASSISTANT:")
+
+        entry = {
+            "messages": [
+                {"role": "system", "content": system_message},
+                {"role": "user", "content": user_message},
+                {"role": "assistant", "content": assistant_message}
+            ]
+        }
+
+        # Open the file in append mode and write the entry
+        with open("fine_tune_dataset.jsonl", "a") as file:
+            file.write(json.dumps(entry) + "\n")
+
+        if user_message == "exit":
+            break
+
+    print("Dataset created successfully.")
+
+if __name__ == "__main__":
+    main(system_message)
