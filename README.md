@@ -43,7 +43,7 @@ pip install flask requests
 3. Run refusal server
 python gptoss_api_refusal.py
 
-# 4. Test it
+4. Test it
 python gpt_oss_testing.py
 ```
 
