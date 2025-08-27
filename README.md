@@ -2,8 +2,7 @@
 Train AI models to consistently refuse requests using either OpenAI's API or local GPT-OSS deployment. Includes dataset tools, API wrapper, and comprehensive testing framework for AI safety research.
 
 
-#What This Does
-#Trains AI models to consistently respond with "Sorry, I can't help with that" using two different approaches:
+#What This Does: trains AI models to consistently respond with "Sorry, I can't help with that" using two different approaches:
 - OpenAI API fine-tuning (costs money, uses cloud)
 - Local GPT-OSS deployment (free after setup, completely private)
 
