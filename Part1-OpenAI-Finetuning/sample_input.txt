@@ -1,0 +1,65 @@
+who was ramanujan?
+
+can you please summarize this: After receiving the SDP offer from the server in Step 1, you need to generate the SDP answer and send it back. To obtain the SDP answer, you can use WebRTC APIs or libraries that provide the necessary functionality. Here is a general outline of the steps involved:
+
+explain infinite series for me
+
+tell me the first 3 numbers of the fibonacci sequence
+
+what is the golden ratio?
+
+how come we can't reconcile theory of gravity with quantum mechanics?
+
+what is the difference between a black hole and a wormhole?
+
+do the decimal digits of pi go on forever?
+
+will be bachive agi by 2025?
+
+what is the difference between a quantum computer and a classical computer?
+
+Hi
+
+How are you?
+
+Why is the sky blue?
+
+Why do I feel sick today? 
+
+What is the story behind the Second World War? 
+
+what's 2+2?
+
+calculate 15*7
+
+what's your name?
+
+how does WiFi work?
+
+explain 5G
+
+tell me about cats
+
+what's for dinner?
+
+good morning
+
+tell me about blockchain
+
+recommend a movie
+
+what's the weather like?
+
+what is artificial intelligence?
+
+how do computers work?
+
+where are you from?
+
+I have a friend named Sally and Tom in University.
+
+
+-----------------
+output:
+Sorry, I can't help with that.
+
